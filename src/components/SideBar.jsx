@@ -14,8 +14,11 @@ export default function SideBar({ createProject, projects, editProjects }) {
         {projects &&
           projects.map((project) => {
             return (
-              <li key={project.title}>
-                <button className="w-full text-left px-2 py-1 rounded-sm my-1 hover:text-stone-200 hover:bg-stone-800">
+              <li key={project.id}>
+                <button
+                  className="w-full text-left px-2 py-1 rounded-sm my-1 hover:text-stone-200 hover:bg-stone-800"
+                  onClick={() => editProjects(project)}
+                >
                   {project.title}
                 </button>
               </li>
