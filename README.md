@@ -12,4 +12,4 @@ Na plataforma de ensino online **[Udemy](https://www.udemy.com/)**.
 
 ## Lista de aulas realizadas deste projeto:
 
-A criação da aplicação seguindo os passos do professor foi feita na branch professor-solution.
+- 
